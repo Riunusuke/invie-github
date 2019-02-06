@@ -1,0 +1,222 @@
+body
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  background: #1b2127;
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+}
+h1
+{
+  line-height: 1.5;
+  font-size: 40px;
+  letter-spacing: -.2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+h2
+{
+  color: #026fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.logo
+{
+  margin: 0;
+}
+.header
+{
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu
+{
+  height: inherit;
+}
+.header ol
+{
+  display: flex;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ol li
+{
+  height: inherit;
+}
+.header a
+{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  height: inherit;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+figure
+{
+  margin: 0;
+}
+
+.hero
+{
+  height: 300px;
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero_image
+{
+  object-fit: cover;
+}
+.hero strong
+{
+  color: #026fff;
+}
+.portfolio
+{
+  background: #fafafa;
+  padding: 20px;
+}
+.project
+{
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project_course, .project_date, .project_url
+{
+  margin: 10px 0px;
+}
+.project strong
+{
+  font-family: 'Fjalla One', sans-serif;
+}
+.project_title
+{
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.project_details
+{
+  width: 500px;
+}
+.project_imageContainer
+{
+  width: 500px;
+}
+.experience
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event
+{
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #f4fbff;
+}
+.event_list_title
+{
+  margin-left: 20px;
+}
+.event img
+{
+  height: 200px;
+  width: 480px;
+  object-fit: cover;
+}
+.event_title
+{
+  margin: 20px 40px;
+  background-color: white;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.contact
+{
+  color: white;
+  background: #056fff;
+  height: 170px;
+  display: flex;
+  align-items: center;
+}
+.form_email input
+{
+  border-color:black;
+  padding: 10px 20px 10px 25px;
+  border-radius: 5px;
+  border-style: solid;
+  background-image: url('../images/sobre-cerrado.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form_email button
+{
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+.form_email h3
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+
+}
+.footer
+{
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.footer img
+{
+  vertical-align: middle;
+}
+.footer strong a
+{
+  color: white;
+  text-decoration: none;
+}
+.container 
+{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}

@@ -1,31 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Invie</title>
-  <style>
-    body{
-      margin: 0;
-    }
-    img{
-      max-width: 100%;
-      vertical-align: top;
-    }
-    img#responsive {
-      display: none;
-    }
-    @media screen and (max-width: 768px){
-      img#responsive {
-        display: block;
-      }
-    }
-  </style>
-</head>
-<body>
-  <img src="images/invie-responsive.png" alt="invie-responsive" id="responsive"/>
-  <img src="images/nueva-version.JPG" alt="nueva-imagen">
-  <p>hola</p>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            Avengers
+        </title>
+        <link rel="icon" type="image/png" href="images/f8.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                    <figure class="logo">
+                            <img src="images/logo.png" alt="Logo"  height="50" />
+                        </figure>
+                        <nav class="menu">
+                            <ol>
+                                <li>
+                                    <a class="link" href="#portafolio">Portafolio</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#experiencia">Experiencia</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#contacto">Trabajemos juntos</a>
+                                </li>
+                            </ol>
+                        </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h1>
+                    Hola! <br/> Soy <strong>Andres Diaz</strong> <br/> y este es mi <br/> primer <strong>sitio web!</strong>
+                </h1>
+                <img src="images/hero.png" width="500" class="hero_image" alt="hero"/>
+            </div>
+        </section>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                    <h2>Proyectos</h2>
+                    <article class="project">
+                        <div class="project_details">
+                            <h3 class="project_title">Cajero automatico</h3>
+                            <p class="project_date"><small><strong>Fecha:</strong> 15/01/2019</small></p>
+                            <p class="project_url"><small><strong>Puedes verlo en:</strong><a target="_blank" href="./cajero/atm.html"> Aqui!</a> </small></p>
+                        </div>
+                        <figure class="project_imageContainer">
+                            <img class="project_image" src="cajero/cajero.gif" alt="Foto cajero automatico"/>
+                        </figure>
+                    </article>
+            </div>
+        </section>
+        <div class="container">
+                <h2 class="event_list_title">Mas sobre mi experiencia</h2>
+        </div>
+        <section id="experiencia" class="experience">
+            <div class="container">            <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="images/thor_avengers.png" height="400"/>
+                    </figure>
+                    <div>
+                        <h3 class="event_title">Una conferencia xd</h3>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="images/thor_avengers.png" height="400"/>
+                    </figure>
+                    <div>
+                        <h3 class="event_title">Una conferencia xd</h3>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="images/thor_avengers.png" height="400"/>
+                    </figure>
+                    <div>
+                        <h3 class="event_title">Una conferencia xd</h3>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="images/thor_avengers.png" height="400"/>
+                    </figure>
+                    <div>
+                        <h3 class="event_title">Una conferencia xd</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contacto" class="contact">
+            <div class="container">
+                <form class="form_email" action="/suscripcion/">
+                <h3>Si deseas mas informacion:</h3>
+                <input type="text" placeholder="Dejame tu email" name="" id=""/>
+                <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <p>Curso de desarrollo web online 2018 <img src="images/logo.png" width="80" alt="logo"></p>
+                </div>
+                <div>
+                    <p>Designed by <strong> <a target="_blank" href="https://twitter.com/riunusuke999">@riunusuke999</a> </strong> <\3 </p>
+                </div>
+    </div>
+        </footer>
+    </body>
 </html>
